@@ -84,7 +84,7 @@ export default function App() {
       >
         <HashRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/korporatio_form" element={<Home />} />
           </Routes>
         </HashRouter>
       </MantineProvider>

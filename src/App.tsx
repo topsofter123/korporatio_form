@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/CompanyRegistration';
 import { MantineProvider } from '@mantine/core';
 
@@ -82,11 +82,11 @@ export default function App() {
         withGlobalStyles
         withNormalizeCSS
       >
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path="/korporatio_form" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </MantineProvider>
     </div>
   );

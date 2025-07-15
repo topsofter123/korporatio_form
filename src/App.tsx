@@ -82,11 +82,11 @@ export default function App() {
         withGlobalStyles
         withNormalizeCSS
       >
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </MantineProvider>
     </div>
   );

@@ -82,11 +82,11 @@ export default function App() {
         withGlobalStyles
         withNormalizeCSS
       >
-        <HashRouter>
+        <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/korporatio_form" element={<Home />} />
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </MantineProvider>
     </div>
   );
